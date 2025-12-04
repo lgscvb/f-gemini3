@@ -32,7 +32,7 @@ export const Reports: React.FC = () => {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 {/* Revenue vs Expense */}
-                <div className="card h-[400px] flex flex-col">
+                <div className="card h-[400px] flex flex-col" style={{ height: 400 }}>
                     <h3 className="text-lg font-bold text-slate-900 mb-6">營收與支出對比</h3>
                     <div className="flex-1 w-full min-h-0">
                         <ResponsiveContainer width="100%" height="100%">
@@ -50,7 +50,7 @@ export const Reports: React.FC = () => {
                 </div>
 
                 {/* Plan Distribution */}
-                <div className="card h-[400px] flex flex-col">
+                <div className="card h-[400px] flex flex-col" style={{ height: 400 }}>
                     <h3 className="text-lg font-bold text-slate-900 mb-6">方案分佈</h3>
                     <div className="flex-1 w-full min-h-0">
                         <ResponsiveContainer width="100%" height="100%">
