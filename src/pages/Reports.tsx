@@ -34,8 +34,8 @@ export const Reports: React.FC = () => {
                 {/* Revenue vs Expense */}
                 <div className="card h-[400px] flex flex-col" style={{ height: 400 }}>
                     <h3 className="text-lg font-bold text-slate-900 mb-6">營收與支出對比</h3>
-                    <div className="w-full" style={{ height: 320 }}>
-                        <ResponsiveContainer width="100%" height="100%">
+                    <div className="w-full">
+                        <ResponsiveContainer width="100%" height={300}>
                             <BarChart data={revenueData}>
                                 <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
                                 <XAxis dataKey="name" axisLine={false} tickLine={false} tick={{ fill: '#64748b', fontSize: 12 }} dy={10} />
