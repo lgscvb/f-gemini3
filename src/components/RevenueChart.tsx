@@ -21,7 +21,7 @@ export const RevenueChart: React.FC = () => {
                     <option>上年度</option>
                 </select>
             </div>
-            <div className="flex-1 w-full min-h-0">
+            <div className="w-full" style={{ height: 320 }}>
                 <ResponsiveContainer width="100%" height="100%">
                     <AreaChart data={data} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                         <defs>
