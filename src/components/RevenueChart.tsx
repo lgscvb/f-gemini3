@@ -13,7 +13,7 @@ const data = [
 
 export const RevenueChart: React.FC = () => {
     return (
-        <div className="card h-[400px] flex flex-col">
+        <div className="card h-[400px] flex flex-col" style={{ height: 400 }}>
             <div className="flex items-center justify-between mb-6">
                 <h3 className="text-lg font-bold text-slate-900">分館營收統計</h3>
                 <select className="text-sm border-slate-200 rounded-md p-1">
