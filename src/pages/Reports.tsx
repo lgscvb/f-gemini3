@@ -52,8 +52,8 @@ export const Reports: React.FC = () => {
                 {/* Plan Distribution */}
                 <div className="card h-[400px] flex flex-col" style={{ height: 400 }}>
                     <h3 className="text-lg font-bold text-slate-900 mb-6">方案分佈</h3>
-                    <div className="w-full" style={{ height: 320 }}>
-                        <ResponsiveContainer width="100%" height="100%">
+                    <div className="w-full">
+                        <ResponsiveContainer width="100%" height={300}>
                             <PieChart>
                                 <Pie
                                     data={planData}
